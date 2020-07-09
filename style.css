@@ -1,0 +1,51 @@
+html,body{
+  margin:0;
+  padding:0;
+  height:100%;
+  width:100%;
+
+  color: grey;
+  font-family: "Lucida Console", Courier, monospace;
+}
+
+a {
+  text-decoration: none;
+  color: #f57c00;
+}
+
+p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+#main {
+  width: 400px;
+  margin: auto;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#store {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#store img {
+  width: 200px;
+  min-width: 200px;
+  height: 60px;
+  min-height: 60px;
+  padding: 60px 0;
+}
+
+#screen {
+  width: 400px;
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
